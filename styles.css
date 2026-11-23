@@ -61,14 +61,14 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
     background-color: #1F2937;
 }
 
 .hero-content {
-    width: 400px;
-    height: auto;
-    max-width: 50%;
+    width: 100%;
+    max-width: 400px;
     padding: 10px;
 }
 
