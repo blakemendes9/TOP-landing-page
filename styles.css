@@ -159,6 +159,41 @@ main{
     max-width: 200px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    margin: 0;
+    font-size: clamp(1rem, 2.5vw, 1.75rem);
+    width: 100%;
+    max-width: 450px;
+}
+
+.quote-figure blockquote {
+    /* font-size: 26px; */
+    font-size: 100%;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-figure figcaption {
+    text-align: right;
+    margin-right: 1rem;
+    font-size: 0.70em;
+    font-weight: 700;
+}
+
 footer {
     background-color: #1F2937;
     color: white;
