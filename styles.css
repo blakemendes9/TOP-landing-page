@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.header {
+    background-color: #1f2963;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.25rem;
+}
+
+.header-left {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.header-left .header-logo{
+    height: 50px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.header-right .header-nav {
+    display: flex;
+}
+
+.header-right .nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.header-right .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200px;
+}
+
+.header-right .nav-link a:hover {
+    color: rgb(186, 207, 252);
+}
