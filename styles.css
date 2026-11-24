@@ -260,3 +260,24 @@ footer {
     text-align: center;
     padding: 0rem 1rem;
 }
+
+@media (max-width: 600px) {
+    .subscribe-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .subscribe-text {
+        padding-left: 0;
+    }
+
+    .subscribe-button {
+        width: 100%;
+    }
+
+    .subscribe-content button {
+        width: 100%;
+        margin-top: 0;
+    }
+}
